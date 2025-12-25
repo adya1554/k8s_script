@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: react-demo
-        image: adityamagadum1/rcb:latest
+        image: adityamagadum1/royals:latest
         imagePullPolicy: Always
         ports:
         - containerPort: 80
