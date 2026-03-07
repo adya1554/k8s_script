@@ -5,6 +5,7 @@ metadata:
   namespace: react-microk8s
   labels:
     name: webapp
+#container spacefication 
 spec: 
   replicas: 3
   selector: 
@@ -13,7 +14,8 @@ spec:
   template:
     metadata:
       labels: 
-        name: webapp
+        name:  webapp
+  # image specification
   spec:
     containers:
       name: react-demo
