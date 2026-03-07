@@ -10,3 +10,14 @@ spec:
   selector: 
     matchLabels:
       name: webapp
+  template:
+    metadata:
+      labels: 
+        name: webapp
+  spec:
+    containers:
+      name: react-demo
+      image: react
+      imagePullPolicy: Always
+      ports:
+        containerPort: 80
